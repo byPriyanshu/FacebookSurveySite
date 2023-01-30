@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: yu-gothic-pr6n, sans-serif;
+	background: #3394E8FF;
+}
+img{
+	position: absolute;
+	height: 800px;
+	margin: 0px 0px 0px 700px;
+	opacity: 0.5;
+}
+h1{
+	color: #ECFC48FF;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 26px;
+	font-weight: 510;
+	letter-spacing: 0.3px;
+	word-spacing: 3px;
+	text-transform: uppercase;
+}
+h1 span{
+	color: white;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 35px;
+	color: #E5E1E1FF;
+	font-size: 20px;
+	font-weight: 510;
+}
+#general-info input{
+	padding: 5px;
+	padding-left: 10px;
+	width: 315px;
+	background-color: #F3DDDDFF;
+	color: #767676;
+	font-weight: bold;
+	font-size: 14px;
+	border: solid black 1px;
+}
+.divs{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+}
+#general-info label{
+	margin: 3px;
+	width: 315px;
+}
+#general-info input{
+	margin-bottom: 20px;
+}
+#check-box{
+	margin-bottom: 30px;
+}
+#check-box p{
+	text-align: left;
+	width: 315px;
+	margin-bottom: 12px;
+}
+#box-select{
+	width: 315px;
+	font-size: 17px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#comment-section p{
+	width: 315px;
+	text-align: left;
+}
+#comment-section textarea{
+	margin-top: 10px;
+	background-color: #F3DDDDFF;
+	color: #767676;
+	font-weight: bold;
+	font-size: 14px;
+	border: black solid 1px;
+	padding: 5px;
+	padding-left: 10px;
+	min-width: 315px;
+	max-width: 315px;
+	min-height: 35px;
+}
+#buttons{
+	margin-top: 35px;
+	width: 315px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#buttons input{
+	width: 100px;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	border: #707070 solid 1px;
+	cursor: pointer;
+}
+#buttons input[type="reset"]{
+	background-color: #FF4067;
+	color: #FFFFFF;
+}
+#buttons input[type="submit"]{
+	background-color: #EEFF48;
+	color: #0077FF;
+}
+#check-box input:hover{
+	box-shadow: 0 0 10px #D4D4D4;
+
+}
+#buttons input[type="reset"]:hover{
+	box-shadow: 0 0 10px #FB5555;
+}
+#buttons input[type="submit"]:hover{
+	box-shadow: 0 0 10px #F6EF2F;
+}
+input::placeholder{
+	color: #676666;
+}
+input:focus{
+	color: #4A4A4A;
+	outline: none;
+	box-shadow: 0 0 10px #D4D4D4;
+}
+textarea::placeholder{
+	color: #676666;
+}
+textarea:focus{
+	color: #4A4A4A;
+	outline: none;
+	box-shadow: 0 0 10px #D4D4D4;
+}

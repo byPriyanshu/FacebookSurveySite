@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Facebook Survey</title>
+	<link rel="icon" href="afcebook.png">
+	<link rel="stylesheet" href="facebook.css">
+</head>
+<body>
+	<!-- <img src="NicePng_logo-facebook-png-transparente_516854.png" alt="Facebook logo"> -->
+	<h1><span>Facebook</span> Survey Form</h1>
+	<div class="form">
+		<form action="">
+			<div class="divs" id="general-info">
+				<label for="name">Enter your name: </label>
+				<input required type="text" placeholder="Ex- Noobslayer5050">
+
+				<label for="email">Enter your email: </label>
+				<input required type="email" placeholder="Ex-wonderfulriot@gmail.com">
+
+				<label for="age">Enter your age: </label>
+				<input required type="number" placeholder="Enter your age using slider">
+			</div>
+
+			<div class="divs" id="check-box">
+				<p>Choose one option: </p>
+				<div id="box-select">
+					<div>
+						<input type="checkbox" name="option1" id="option1">
+						<label for="option1">Option 1</label>
+					</div>
+					<div>
+						<input type="checkbox" name="option2" id="option2">			
+						<label for="option2">Option 2</label>
+					</div>
+					<div>
+						<input type="checkbox" name="option3" id="option3">			
+						<label for="option3">Option 3</label>
+					</div>
+				</div>
+			</div>
+			<div class="divs" id="comment-section">		
+				<p>Leave a comment: </p>
+				<textarea name="comment" id="comment" placeholder = "Write a comment :)"></textarea>
+			</div>
+
+			<div class="divs" id="buttons">
+				<input type="reset" value="Reset">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
